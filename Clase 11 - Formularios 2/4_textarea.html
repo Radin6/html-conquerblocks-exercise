@@ -1,0 +1,59 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>HTML - Clase 11: Formularios II</title>
+
+  <meta name="description" content="HTML - Clase 09: Tablas avanzadas">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header>
+    <h1>Ejemplos vistos en la clase 11</h1>
+    <p><a href="index.html">Volver atrás</a></p>
+    <hr>
+  </header>
+
+  <main>
+    <h1>Ejemplo de textarea</h1>
+    <form action="/registrar-cliente/" name="registro" method="get" autocomplete="off">
+      <p>
+        Nombre
+        <input type="text" name="firstname"><br>
+      </p>
+      <p>
+        Edad
+        <input type="number" name="age" min="18" max="60"><br>
+      </p>
+
+      <p>
+        <label for="bio">Biografía</label><br>
+        <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+      </p>
+      <p>
+        <button>Enviar</button>
+        <input type="submit" value="Enviar a otro sitio">
+        <input type="reset" value="Borrar el formulario">
+      </p>
+      
+    </form>
+    
+  </main>
+
+  <hr>
+  <footer>
+    @ 2023 - Todos los derechos reservados
+  </footer>
+</body>
+
+</html>
