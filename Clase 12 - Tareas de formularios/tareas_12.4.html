@@ -1,0 +1,96 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>HTML - Clase 12: Tareas de formularios</title>
+
+  <meta name="description" content="HTML - Clase 09: Tablas avanzadas">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header>
+    <h1>Tarea 12.4</h1>
+    <p><a href="index.html">Volver atrás</a></p>
+    <hr>
+  </header>
+
+  <main>
+    <h2>Información sobre el producto</h2>
+    <form action="#" method="post" enctype="multipart/form-data">
+      
+      <fieldset>
+        <legend>Datos básicos</legend>
+        <p>
+          <label for="name">Nombre</label><br>
+          <input type="text" name="name" id="name">
+        </p>
+
+        <p>
+          <label for="desc">Descripción</label><br>
+          <textarea name="desc" id="desc" cols="50" rows="4"></textarea>
+        </p>
+
+        <p>
+          <label for="pic">Foto</label>
+          <input type="file" name="pic" id="pic">
+        </p>
+
+        <p>
+          <input type="checkbox" name="check" id="check">
+          <label for="check">Añadir contador de visitas</label>
+        </p>
+         
+      </fieldset>
+      <fieldset>
+        <legend>Datos económicos</legend>
+        <p>
+          <label for="price">Precio</label>
+          <input type="number" name="price" id="price" step="0.5"> €
+          <label for="tax">- Impuestos</label>
+          <select name="tax" id="tax">
+            <option value="4">4%</option>
+            <option value="7">7%</option>
+            <option value="16">16%</option>
+            <option value="25">25%</option>
+          </select>
+        </p>
+
+        <p>
+          Promoción<br>
+          <input type="radio" name="promo" value="" id="1">
+          <label for="1">Ninguno</label><br>
+
+          <input type="radio" name="promo" value="" id="2">
+          <label for="2">Transporte gratuito</label><br>
+
+          <input type="radio" name="promo" value="" id="3">
+          <label for="3">Descuento 5%</label><br>
+
+        </p>
+      </fieldset>
+
+      <p>
+        <button>Enviar</button>
+      </p>
+
+    </form>
+    
+  </main>
+
+  <hr>
+  <footer>
+    @ 2023 - Todos los derechos reservados
+  </footer>
+</body>
+
+</html>

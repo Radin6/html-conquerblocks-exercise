@@ -1,0 +1,97 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>HTML - Clase 12: Tareas de formularios</title>
+
+  <meta name="description" content="HTML - Clase 09: Tablas avanzadas">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header>
+    <h1>Tarea 12.1</h1>
+    <p><a href="index.html">Volver atrás</a></p>
+    <hr>
+  </header>
+
+  <main>
+    <h2>Formulario de registro - Mi web</h2>
+    <form action="" method="get">
+      <p>
+        <label for="name"> Nombre: </label>
+        <input type="text" name="name" id="name" maxlength="50">
+      </p>
+
+      <p>
+        <label for="surname"> Apellidos: </label>
+        <input type="text" name="surname" id="surname" maxlength="50">
+      </p>
+
+      <p>
+        Sexo:<br>
+        <input type="radio" name="gender" value="m" id="male">
+        <label for="male">Hombre</label>
+        <br>
+        <input type="radio" name="gender" value="f" id="female">
+        <label for="female">Mujer</label>
+      </p>
+
+      <p>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+      </p>
+
+      <p>
+        <label for="city">Población: </label>
+        <select name="city" id="city">
+          <option selected value="">-</option>
+          <option value="a">Alicante</option>
+          <option value="m">Madrid</option>
+          <option value="v">Valencia</option>
+          <option value="s">Sevilla</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="descrip">Descripción:</label><br>
+        <textarea name="descript" id="descrip" cols="40" rows="3" 
+        placeholder="Escribe aquí la descripción"></textarea>
+      </p>
+
+      <p>
+        <input type="checkbox" name="verif" id="verif" checked>
+        <label for="verif">Deseo recibir información sobre novedades y ofetas</label>
+      </p>
+
+      <p>
+        <input type="checkbox" name="verif2" id="verif2" required>
+        <label for="verif2">Declaro haber leido y aceptado las condiciones generales 
+          del programa y la normativa sobre protección de datos
+        </label>
+      </p>
+
+      <p>
+        <button>Enviar</button>
+      </p>
+      
+    </form>
+
+  </main>
+
+  <hr>
+  <footer>
+    @ 2023 - Todos los derechos reservados
+  </footer>
+</body>
+
+</html>

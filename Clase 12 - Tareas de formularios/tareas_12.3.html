@@ -1,0 +1,89 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>HTML - Clase 12: Tareas de formularios</title>
+
+  <meta name="description" content="HTML - Clase 09: Tablas avanzadas">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header>
+    <h1>Tarea 12.3</h1>
+    <p><a href="index.html">Volver atrás</a></p>
+    <hr>
+  </header>
+
+  <main>
+    <h2>Rellena tu CV</h2>
+    <form action="#" method="get">
+      
+      <fieldset>
+        <legend>Datos personales</legend>
+        <p>
+          <label for="prov">Provincia</label>
+          <select name="prov" id="prov">
+            <option value="">- selecciona -</option>
+            <option value="1">Provincia1</option>
+            <option value="2">Provincia2</option>
+            <option value="3">Provincia3</option>
+          </select>
+        </p>
+        <p>
+          Fecha de nacimiento
+          <input type="number" name="fecha" min="1" max="31"> de 
+          <select name="mes" id="mes">
+            <option value="1">Enero</option>
+            <option value="2">Febrero</option>
+            <option value="3">Marzo</option>
+            <option value="4">Abril</option>
+            <option value="5">Mayo</option>
+            <option value="6">Junio</option>
+            <option value="7">Julio</option>
+            <option value="8">Agosto</option>
+            <option value="9">Sepriembre</option>
+            <option value="10">Octubre</option>
+            <option value="11">Noviembre</option>
+            <option value="12">Diciembre</option>
+          </select> de 
+          <input type="number" name="year" id="year" min="1950" max="2023">
+
+          <p>
+            <label for="temas">Temas de interés</label><br>
+            <select name="temas" id="temas" size="5" multiple>
+              <option value="1">Administración de bases de datos</option>
+              <option value="2">Análisis y programación</option>
+              <option value="3">Arquitectura</option>
+              <option value="4">Calidad</option>
+              <option value="5">ERP</option>
+              <option value="6">CRM</option>
+              <option value="7">Business Intelligence</option>
+            </select>
+          </p>
+      </fieldset>
+
+      <p>
+        <button>Enviar</button>
+      </p>
+
+    </form>
+    
+  </main>
+
+  <hr>
+  <footer>
+    @ 2023 - Todos los derechos reservados
+  </footer>
+</body>
+
+</html>
