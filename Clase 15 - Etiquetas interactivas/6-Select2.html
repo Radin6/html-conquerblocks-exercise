@@ -1,0 +1,64 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>HTML - Clase 15: Etiquetas interactivas</title>
+
+  <meta name="description" content="HTML - Clase 09: Tablas avanzadas">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <meta name="theme-color" content="#fafafa">
+
+  <script
+  src="https://code.jquery.com/jquery-3.7.0.min.js"
+  integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+  crossorigin="anonymous"></script>
+
+  <!--Select2-->
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Clase 15: Etiquetas interactivas</h1>
+    <p><a href="index.html">Volver atrás</a></p>
+    <hr>
+  </header>
+
+  <main>
+    <h2>Ejemplo de elemento Select2</h2>
+    <p>
+      Selecciona ti lenguaje favorito:
+      <select name="" id="weblang">
+        <option value=""></option>
+        <option value="1">HTML</option>
+        <option value="2">CSS</option>
+        <option value="3">Javascript</option>
+        <option value="4">HTML</option>
+        <option value="5">CSS</option>
+        <option value="6">Javascript</option>
+      </select>
+    </p>
+ 
+  </main>
+
+  <hr>
+  <footer>
+    @ 2023 - Todos los derechos reservados
+  </footer>
+  <script>
+    $(document).ready(function() {
+      $('#weblang').select2();
+    });
+  </script>
+</body>
+
+</html>

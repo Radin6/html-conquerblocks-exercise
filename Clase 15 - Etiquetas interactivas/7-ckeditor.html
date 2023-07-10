@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>HTML - Clase 15: Etiquetas interactivas</title>
+
+  <meta name="description" content="HTML - Clase 09: Tablas avanzadas">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <meta name="theme-color" content="#fafafa">
+
+  <script src="https://cdn.ckeditor.com/ckeditor5/38.1.0/classic/ckeditor.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Clase 15: Etiquetas interactivas</h1>
+    <p><a href="index.html">Volver atrás</a></p>
+    <hr>
+  </header>
+
+  <main>
+    <h2>Ejemplo de elemento Ckeditor</h2>
+    <p>Descripción<br>
+      <textarea name="" id="descript" cols="30" rows="10"></textarea>
+    </p>
+  </main>
+
+  <hr>
+  <footer>
+    @ 2023 - Todos los derechos reservados
+  </footer>
+
+  <script>
+    ClassicEditor
+        .create( document.querySelector( '#descript' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+  </script>
+
+</body>
+
+</html>

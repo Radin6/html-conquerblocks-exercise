@@ -1,0 +1,54 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>HTML - Clase 15: Etiquetas interactivas</title>
+
+  <meta name="description" content="HTML - Clase 09: Tablas avanzadas">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header>
+    <h1>Clase 15: Etiquetas interactivas</h1>
+    <p><a href="index.html">Volver atrás</a></p>
+    <hr>
+  </header>
+
+  <main>
+    <h2>Ejemplo de elemento popover</h2>
+
+    <button popovertarget="popover1" popovertargetaction="toggle">Cambiar estado del popover</button>
+
+    <div id="popover1" popover>
+      <section>
+        <h2>Sección 1</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis quod perspiciatis voluptatum ab voluptas maxime atque impedit dolorem hic non quas explicabo, iusto laboriosam nisi quisquam suscipit! Pariatur, nam ex.</p>
+      </section>
+
+      <section>
+        <h2>Sección 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam expedita natus porro provident cum commodi delectus culpa reprehenderit explicabo id, nihil hic iusto placeat, minus omnis fugiat molestiae quia beatae!</p>
+      </section>
+
+      <button popovertarget="popover1" popovertargetaction="toggle">Cerrar</button>
+    </div>
+    
+  </main>
+
+  <hr>
+  <footer>
+    @ 2023 - Todos los derechos reservados
+  </footer>
+</body>
+
+</html>
