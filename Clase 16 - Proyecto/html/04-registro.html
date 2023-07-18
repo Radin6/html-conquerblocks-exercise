@@ -1,0 +1,96 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <title>Clase 16: Proyecto Conquer Academy</title>
+  <meta name="description" content="Clase 16: Proyecto Conquer Academy">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header>
+    <figure>
+      <img width="300" src="../img/conquer.png" alt="logo conquer">
+    </figure>
+    <h1>Conquer Academy</h1>
+    <ul>
+      <li><a href="00-index.html">Home</a></li>
+      <li><a href="01-somos.html"> Quiénes somos</a></li>
+      <li><a href="02-cursos.html">Cursos</a></li>
+      <li><a href="03-blog.html">Blog</a></li>
+      <li><a href="04-registro.html">Registro</a></li>
+      <li><a href="05-login.html">Login</a></li>
+      <li><a href="06-contacto.html">Contacto</a></li>
+    </ul>
+  
+    <hr>
+  </header>
+
+  <main>
+    <div>
+      <h2>Registro</h2>
+    </div>
+    <div>
+      <form action="post" enctype="multipart/form-data">
+        <fieldset>
+          <legend>Datos requeridos</legend>
+          <p>
+            <label for="name">Nombre completo</label>
+            <input type="text">
+          </p>
+          <p>
+            <label for="dob">Fecha de nacimiento</label>
+            <input type="date">
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input type="email">
+          </p>
+          <p>
+            <label for="address">Dirección</label>
+            <input type="text">
+          </p>
+          <p>
+            <label for="url">Página web</label>
+            <input type="url">
+          </p>
+          <p>
+            <label for="pic">Foto</label>
+            <input type="file" name="pic" id="pic">
+          </p>
+          <p>
+            <label for="bio">Biografía</label><br>
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+          </p>
+        </fieldset>
+        <p>
+          <button>Enviar</button>
+          <input type="reset" value="Borrar formulario">
+        </p>
+      </form>
+    </div>
+        
+  </main>
+
+  <hr>
+  <footer>
+    @ 2023 - Todos los derechos reservados
+  </footer>
+</body>
+
+</html>
